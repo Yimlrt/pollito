@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.imagenjk{
+  widht:120px;
+  height:120px;
+  margin-top: 20px;
+}
+
+h1 {
+    margin-top: 10px;
+    align-items: center;
+}
+
+p {
+    margin-top: -10px;
+
+}
+
+
+.card {
+    height: 180px;
+    width: 280px;
+    background-color: rgb(204, 130, 176);
+    border: 5px solid rgb(155, 31, 168);
+    border-top-width: 15px;
+    border-top-colorrgb(235, 179, 76)ge;
+    border-top-style: solid;
+
+}
+
+@keyframes latidos {
+    from {
+        transform: none;
+    }
+
+    50% {
+        transform: scale(1.4);
+    }
+
+    to {
+        transform: none;
+    }
+}
+
+.corazon {
+    display: inline-block;
+    font-size: 70px;
+    text-shadow: 0 0 10px #222, 1px 1px 0 #450505;
+    color: rgb(235, 33, 50);
+    animation: latidos .5s infinite;
+    transform-origin: center;
+}
+
+body {
+    text-align: center;
+    background: #bb9e9e;
+    height: 230px;
+}
+
+.snowflake {
+            position: fixed;
+            top: -10px;
+            font-size: 20px;
+            animation: snowfall linear infinite;
+            pointer-events: none;
+            z-index: 3;
+        }
+
+        @keyframes snowfall {
+            0% { transform: translateY(-10px) rotate(0deg); }
+            100% { transform: translateY(300px) rotate(360deg); }
+        }
+
